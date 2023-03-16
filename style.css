@@ -176,6 +176,7 @@ span{
     gap: 2rem;
     background-color: var(--second-bg-color);
 
+
 }
 .about-img img{
     width: 35vw;
@@ -199,6 +200,14 @@ span{
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
+/* .about-content p.hidden{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+.about-content.expanded p.hidden{
+    max-height: 500px;
+} */
 
 
 

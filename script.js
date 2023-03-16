@@ -72,3 +72,13 @@ const typed = new Typed('.multiple-text',{
     backDelay:1000,
     loop:true
 });
+
+
+//about expansion
+// let readMoreBtn = document.querySelector('.about-content .btn');
+// let hiddenSection = document.querySelector('.about-content p.hidden');
+
+// readMoreBtn.addEventListener('click', (e) => {
+//   e.preventDefault();
+//   hiddenSection.classList.toggle('expanded');
+// });
