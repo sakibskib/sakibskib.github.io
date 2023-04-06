@@ -200,6 +200,15 @@ span{
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
+.hidden{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+.visible{
+    display: block;
+    max-height: 500px;
+}
 /* .about-content p.hidden{
     max-height: 0;
     overflow: hidden;

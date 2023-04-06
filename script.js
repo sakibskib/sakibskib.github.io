@@ -82,3 +82,19 @@ const typed = new Typed('.multiple-text',{
 //   e.preventDefault();
 //   hiddenSection.classList.toggle('expanded');
 // });
+
+const readMoreBtn = document.querySelector('.read-more-btn');
+const hiddenPara = document.querySelector('.hidden');
+
+readMoreBtn.addEventListener('click', function() {
+    hiddenPara.classList.toggle('visible');
+});
+
+
+const read1MoreBtn = document.getElementById('read-more-btn');
+const hiddenText = document.getElementById('hidden-text');
+
+readMoreBtn.addEventListener('click', (e) => {
+  e.preventDefault(); // prevent the default behavior of the anchor tag
+  hiddenText.classList.toggle('hidden'); // show or hide the hidden text
+});
